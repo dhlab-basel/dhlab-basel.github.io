@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>KNORA | Knowledge Organization, Representation and Annotation</title>
+        <link rel='shortcut icon' href='favicon.ico'>
+        <meta name='description' content='KNORA is an awsome platform for creating Knowledge Organization, Representation and Annotation applications. Created by the Digital Humanities lab (dhlab), University of Basel'>
+        <meta name='keywords' content='knora, knowledge, organization, representation, annotation, dhlab, digital, humanities, basel, switzerland'>
+
+        <meta name='viewport' content='width=480, user-scalable=no'>
+        <meta name='viewport' content='initial-scale=0.8, maximum-scale=1'>
+
+        <script type='text/javascript' src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
+        <script type='text/javascript' src='http://www.knora.org/js/jquery.center.js'></script>
+
+        <style>
+            @import url(http://fonts.googleapis.com/css?family=Raleway);
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background: #ffffff;
+                color: #414141;
+                font-family: 'Raleway', Palatino, sans-serif;
+                letter-spacing: 4px;
+            }
+            a {
+                color: #000000;
+                text-decoration: none;
+            }
+            section.banner {
+                text-align: center;
+                width: 100%;
+                padding-bottom: 100px;
+            }
+            h2 {
+                margin: 80px;
+            }
+            img.logo {
+                width: 640px;
+            }
+            video {
+                width: 640px;
+                height: auto;
+                padding: 50px;
+            }
+            /* Phone */
+            @media screen and (max-width: 640px) {
+                img.logo {
+                    width: 320px;
+                }
+            }
+
+            footer {
+                position: fixed;
+                width: 100%;
+                bottom: 0px;
+                font-size: small;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section class='banner'>
+            <h1><img src='http://www.knora.org/media/images/knora-logo.png' alt='KNORA' title='Knowledge Organization, Representation, and Annotation' class='logo'></h1>
+            <h2>Knowledge Organization, Representation, and Annotation</h2>
+        </section>
+        <footer>
+            <p>
+                &copy; <a href='http://www.dhlab.unibas.ch'>Digital Humanities<sup>lab</sup></a> &ndash; <a href='http://www.unibas.ch'>University of Basel</a> | 2014
+            </p>
+        </footer>
+
+
+        <script type='text/javascript'>
+            $('section.banner').center();
+            $(window).resize(function() {
+                $('section.banner').center();
+            });
+        </script>
+    </body>
+</html>
