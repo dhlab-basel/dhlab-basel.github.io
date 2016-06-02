@@ -1,0 +1,76 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.mdl-layout__header-row {
+  padding-left: 40px;
+}
+.mdl-layout__header-row img.big-logo {
+  min-height: 56px;
+  max-height: 99px;
+  width: auto;
+}
+.mdl-layout__header-row img.small-logo {
+  min-height: 56px;
+  max-height: 64px;
+  width: auto;
+}
+
+.mdl-layout-navigation a {
+    color: #f5f5f5 !important;
+    text-decoration: none;
+}
+
+main.mdl-layout__content {
+    min-height: 600px;
+    z-index: 0;
+}
+.mdl-grid {
+	max-width: 600px;
+}
+.mdl-card__media {
+	margin: 0;
+}
+.mdl-card__media > img {
+	max-width: 100%;
+}
+.mdl-card__actions {
+	display: flex;
+	box-sizing:border-box;
+	align-items: center;
+}
+.mdl-card__actions > .mdl-button--icon {
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.mdl-mini-footer {
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+}
+
+.mdl-mini-footer__right-section {
+    margin-right: 44px;
+}
+.mdl-mini-footer .mdl-button i img {
+    width: 24px;
+    height: 24px;
+}
